@@ -1093,7 +1093,7 @@ function removeLetter(){
 }
 
 function isWordValid(word){
-    return word.length === 5;
+    return word.length === 5 && dictionary.includes(word);
 }
 
 function revealWord(guess){
